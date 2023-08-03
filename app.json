@@ -1,30 +1,44 @@
 {
   "expo": {
-    "name": "learnreactnative",
-    "slug": "learnreactnative",
+    "name": "DATN",
+    "slug": "datn",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo2.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo2.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#030434"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "sdkVersion"
+      }
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/logo2.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.domanhquan.DATN",
+      "runtimeVersion": "1.0.0"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/logo2.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f44c8302-1790-4615-8308-cfc93db168ad"
+      }
+    },
+    "owner": "domanhquan",
+    "updates": {
+      "url": "https://u.expo.dev/fdc755e7-4537-4187-9840-8b2b6efd963b"
     }
   }
 }

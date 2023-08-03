@@ -1,49 +1,23 @@
-import HomeImage from "../image/HomeImage.svg";
 import AccountImage from "../image/AccountImage.svg";
 import Accout from "../screens/Accout";
 import Home from "../screens/Home";
-import Camera from "../screens/Camera";
 
 export const tabs = [
   {
-    name: "Home",
+    name: "DATN",
     component: Home,
-    icon: HomeImage,
-  },
-  {
-    name: "Camera",
-    component: Camera,
-    icon: HomeImage,
+    icon: "home",
   },
   {
     name: "Accout",
     component: Accout,
-    icon: AccountImage,
+    icon: "user",
   },
 ];
 
 export const screens = [
-  //   {
-  //     name: "FashionSocial",
-  //     component: FashionSocial,
-  //   },
+  // {
+  //   name: "Products",
+  //   component: Products,
+  // },
 ];
-
-// export const screensTransparent = [
-//   {
-//     name: "ProductDetail",
-//     component: ProductDetail,
-//   },
-//   {
-//     name: 'Auth',
-//     component: Auth
-//   },
-//   {
-//     name: "SocialDetail",
-//     component: SocialDetail,
-//   },
-//   {
-//     name: 'EditImage',
-//     component: EditImage
-//   }
-// ]
